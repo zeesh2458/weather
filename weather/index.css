@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Volkhov:ital,wght@1,700&display=swap');
+
+body {
+    background: fixed url("bg3.jpg") no-repeat center;
+}
+
+.weather {
+    text-align: center;
+    position: relative;
+    top: 150px;
+    left: 550px;
+    border: solid 3px black;
+    width: 22vw;
+    height: 22vw;
+    border-radius: 30px;
+    background: rgba(193, 230, 92, 0.3);
+    font-weight: bolder;
+    padding: 11px;
+    background-size: 294px 294px;
+    color: black;
+    font-family: 'Volkhov', serif;
+}
+
+.search-bar {
+    width: 250px;
+    border-radius: 15px;
+    padding-left: 20px;
+}
+
+#my {
+    border-radius: 20px;
+}
+
+.footer {
+    background: black;
+    color: white;
+    position: relative;
+    top: 250px;
+    height: 50px;
+    text-align: center;
+    padding-top: 10px;
+}
